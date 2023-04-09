@@ -1,0 +1,34 @@
+# 버전 지정
+version: "3.7"
+
+# 컨테이너 설정
+services:
+  database:
+    # Docker Container Name
+    container_name: python-mysql
+    # Image to use
+    image: mysql:8
+    # 컨테이너 다운 시 재시작하라는 명령어
+    restart: always
+    # 데이터베이스 컨테이너 안의 환경변수 설정
+    environment:
+      # 기본적으로 생성할 DB
+      - MYSQL_DATABASE=gary
+      # 기본 Root 계정의 비밀번호
+      - MYSQL_ROOT_PASSWORD=wjdwhdans
+      # 데이터베이스 타임존
+      - TZ=Asia/Seoul
+    # Port 지정
+    ports:
+      - "40002:3306"
+
+  redis:
+    # Docker Container Name
+    container_name: python-redis
+    # Image to use
+    image: redis:7
+    # 컨테이너 다운 시 재시작하라는 명령어
+    restart: always
+    # Port 지정
+    ports:
+      - "40003:6379"

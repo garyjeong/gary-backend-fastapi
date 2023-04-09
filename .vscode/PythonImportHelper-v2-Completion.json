@@ -1,0 +1,272 @@
+[
+    {
+        "label": "fileConfig",
+        "importPath": "logging.config",
+        "description": "logging.config",
+        "isExtraImport": true,
+        "detail": "logging.config",
+        "documentation": {}
+    },
+    {
+        "label": "engine_from_config",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "pool",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Column",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Integer",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "String",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "DateTime",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "context",
+        "importPath": "alembic",
+        "description": "alembic",
+        "isExtraImport": true,
+        "detail": "alembic",
+        "documentation": {}
+    },
+    {
+        "label": "APIRouter",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "FastAPI",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "AsyncSession",
+        "importPath": "sqlalchemy.ext.asyncio",
+        "description": "sqlalchemy.ext.asyncio",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.ext.asyncio",
+        "documentation": {}
+    },
+    {
+        "label": "create_async_engine",
+        "importPath": "sqlalchemy.ext.asyncio",
+        "description": "sqlalchemy.ext.asyncio",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.ext.asyncio",
+        "documentation": {}
+    },
+    {
+        "label": "declarative_base",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "sessionmaker",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "UUID",
+        "importPath": "sqlalchemy.dialects.mysql",
+        "description": "sqlalchemy.dialects.mysql",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.dialects.mysql",
+        "documentation": {}
+    },
+    {
+        "label": "Base",
+        "importPath": "app.database.session",
+        "description": "app.database.session",
+        "isExtraImport": true,
+        "detail": "app.database.session",
+        "documentation": {}
+    },
+    {
+        "label": "router",
+        "importPath": "app.apis",
+        "description": "app.apis",
+        "isExtraImport": true,
+        "detail": "app.apis",
+        "documentation": {}
+    },
+    {
+        "label": "run_migrations_offline",
+        "kind": 2,
+        "importPath": "alembic.env",
+        "description": "alembic.env",
+        "peekOfCode": "def run_migrations_offline() -> None:\n    \"\"\"Run migrations in 'offline' mode.\n    This configures the context with just a URL\n    and not an Engine, though an Engine is acceptable\n    here as well.  By skipping the Engine creation\n    we don't even need a DBAPI to be available.\n    Calls to context.execute() here emit the given string to the\n    script output.\n    \"\"\"\n    url = config.get_main_option(\"sqlalchemy.url\")",
+        "detail": "alembic.env",
+        "documentation": {}
+    },
+    {
+        "label": "run_migrations_online",
+        "kind": 2,
+        "importPath": "alembic.env",
+        "description": "alembic.env",
+        "peekOfCode": "def run_migrations_online() -> None:\n    \"\"\"Run migrations in 'online' mode.\n    In this scenario we need to create an Engine\n    and associate a connection with the context.\n    \"\"\"\n    connectable = engine_from_config(\n        config.get_section(config.config_ini_section),\n        prefix=\"sqlalchemy.\",\n        poolclass=pool.NullPool,\n    )",
+        "detail": "alembic.env",
+        "documentation": {}
+    },
+    {
+        "label": "config",
+        "kind": 5,
+        "importPath": "alembic.env",
+        "description": "alembic.env",
+        "peekOfCode": "config = context.config\n# Interpret the config file for Python logging.\n# This line sets up loggers basically.\nif config.config_file_name is not None:\n    fileConfig(config.config_file_name)\n# add your model's MetaData object here\n# for 'autogenerate' support\n# from myapp import mymodel\n# target_metadata = mymodel.Base.metadata\ntarget_metadata = None",
+        "detail": "alembic.env",
+        "documentation": {}
+    },
+    {
+        "label": "target_metadata",
+        "kind": 5,
+        "importPath": "alembic.env",
+        "description": "alembic.env",
+        "peekOfCode": "target_metadata = None\n# other values from the config, defined by the needs of env.py,\n# can be acquired:\n# my_important_option = config.get_main_option(\"my_important_option\")\n# ... etc.\ndef run_migrations_offline() -> None:\n    \"\"\"Run migrations in 'offline' mode.\n    This configures the context with just a URL\n    and not an Engine, though an Engine is acceptable\n    here as well.  By skipping the Engine creation",
+        "detail": "alembic.env",
+        "documentation": {}
+    },
+    {
+        "label": "photo_router",
+        "kind": 5,
+        "importPath": "app.apis.photo",
+        "description": "app.apis.photo",
+        "peekOfCode": "photo_router = APIRouter(prefix=\"/photos\", tags=[\"Photos\"])",
+        "detail": "app.apis.photo",
+        "documentation": {}
+    },
+    {
+        "label": "SQLALCHEMY_DATABASE_URL",
+        "kind": 5,
+        "importPath": "app.database.session",
+        "description": "app.database.session",
+        "peekOfCode": "SQLALCHEMY_DATABASE_URL = \"mysql://user:password@postgresserver/db\"\nengine = create_async_engine(\n    SQLALCHEMY_DATABASE_URL, \n    pool_pre_ping=True, \n    pool_size=15, \n    max_overflow=0, \n)\nengine = create_async_engine(\n    SQLALCHEMY_DATABASE_URI,\n    connect_args=SQLALCHEMY_ENGINE_CONNECTION_ARGS,",
+        "detail": "app.database.session",
+        "documentation": {}
+    },
+    {
+        "label": "engine",
+        "kind": 5,
+        "importPath": "app.database.session",
+        "description": "app.database.session",
+        "peekOfCode": "engine = create_async_engine(\n    SQLALCHEMY_DATABASE_URL, \n    pool_pre_ping=True, \n    pool_size=15, \n    max_overflow=0, \n)\nengine = create_async_engine(\n    SQLALCHEMY_DATABASE_URI,\n    connect_args=SQLALCHEMY_ENGINE_CONNECTION_ARGS,\n    pool_pre_ping=True,",
+        "detail": "app.database.session",
+        "documentation": {}
+    },
+    {
+        "label": "engine",
+        "kind": 5,
+        "importPath": "app.database.session",
+        "description": "app.database.session",
+        "peekOfCode": "engine = create_async_engine(\n    SQLALCHEMY_DATABASE_URI,\n    connect_args=SQLALCHEMY_ENGINE_CONNECTION_ARGS,\n    pool_pre_ping=True,\n)\nasync_session = sessionmaker(\n    bind=engine,\n    class_=AsyncSession,\n    autoflush=False,\n    autocommit=False,",
+        "detail": "app.database.session",
+        "documentation": {}
+    },
+    {
+        "label": "async_session",
+        "kind": 5,
+        "importPath": "app.database.session",
+        "description": "app.database.session",
+        "peekOfCode": "async_session = sessionmaker(\n    bind=engine,\n    class_=AsyncSession,\n    autoflush=False,\n    autocommit=False,\n    expire_on_commit=False,\n)\nBase = declarative_base()",
+        "detail": "app.database.session",
+        "documentation": {}
+    },
+    {
+        "label": "Base",
+        "kind": 5,
+        "importPath": "app.database.session",
+        "description": "app.database.session",
+        "peekOfCode": "Base = declarative_base()",
+        "detail": "app.database.session",
+        "documentation": {}
+    },
+    {
+        "label": "Photo",
+        "kind": 6,
+        "importPath": "app.schemas.photo",
+        "description": "app.schemas.photo",
+        "peekOfCode": "class Photo(Base):\n    __tablename__ = \"photo\"\n    __table_args__ = {\"comment\" : \"포토북, 사진 데이터\"}\n    id: int = Column(\n        Integer, primary_key=True, autoincrement=True, comment=\"사진 Row ID\"\n    )\n    uuid = Column(UUID(as_uuid=True), unique=True, default=uuid.uuid4, comment=\"사진 UUID, Front 제공용 ID\")\n    memo = Column(String(1000), nullable=True, comment=\"사진 메모\")\n    url = Column(String(500), nullable=False, comment=\"사진 URL\")\n    created_at = Column(DateTime(), default=datetime.now())",
+        "detail": "app.schemas.photo",
+        "documentation": {}
+    },
+    {
+        "label": "register_router",
+        "kind": 2,
+        "importPath": "app.main",
+        "description": "app.main",
+        "peekOfCode": "def register_router(application: FastAPI):\n    application.include_router(router)\ndef create_application() -> FastAPI:\n    application = FastAPI(\n        title=\"Gary API\",\n        version=\"1.0.0\",\n        openapi_url=\"/openapi.json\",\n        redoc_url=\"/redoc\",\n        docs_url=\"/docs\",\n    )",
+        "detail": "app.main",
+        "documentation": {}
+    },
+    {
+        "label": "create_application",
+        "kind": 2,
+        "importPath": "app.main",
+        "description": "app.main",
+        "peekOfCode": "def create_application() -> FastAPI:\n    application = FastAPI(\n        title=\"Gary API\",\n        version=\"1.0.0\",\n        openapi_url=\"/openapi.json\",\n        redoc_url=\"/redoc\",\n        docs_url=\"/docs\",\n    )\n    register_router(application)\n    return application",
+        "detail": "app.main",
+        "documentation": {}
+    },
+    {
+        "label": "app",
+        "kind": 5,
+        "importPath": "app.main",
+        "description": "app.main",
+        "peekOfCode": "app = create_application()",
+        "detail": "app.main",
+        "documentation": {}
+    }
+]
