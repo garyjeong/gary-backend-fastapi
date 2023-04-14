@@ -1,3 +1,5 @@
+import uuid
+
 from datetime import datetime
 from sqlalchemy import Column, Integer, String, DateTime
 from sqlalchemy.dialects.mysql import UUID

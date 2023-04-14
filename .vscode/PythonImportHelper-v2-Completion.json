@@ -56,6 +56,38 @@
         "documentation": {}
     },
     {
+        "label": "Column",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Integer",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "String",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "DateTime",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
         "label": "context",
         "importPath": "alembic",
         "description": "alembic",
@@ -112,6 +144,23 @@
         "documentation": {}
     },
     {
+        "label": "uuid",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "uuid",
+        "description": "uuid",
+        "detail": "uuid",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
         "label": "datetime",
         "importPath": "datetime",
         "description": "datetime",
@@ -125,6 +174,22 @@
         "description": "sqlalchemy.dialects.mysql",
         "isExtraImport": true,
         "detail": "sqlalchemy.dialects.mysql",
+        "documentation": {}
+    },
+    {
+        "label": "UUID",
+        "importPath": "sqlalchemy.dialects.mysql",
+        "description": "sqlalchemy.dialects.mysql",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.dialects.mysql",
+        "documentation": {}
+    },
+    {
+        "label": "Base",
+        "importPath": "app.database.session",
+        "description": "app.database.session",
+        "isExtraImport": true,
+        "detail": "app.database.session",
         "documentation": {}
     },
     {
@@ -231,6 +296,15 @@
         "description": "app.database.session",
         "peekOfCode": "Base = declarative_base()",
         "detail": "app.database.session",
+        "documentation": {}
+    },
+    {
+        "label": "Folder",
+        "kind": 6,
+        "importPath": "app.schemas.folder",
+        "description": "app.schemas.folder",
+        "peekOfCode": "class Folder(Base):\n    __tablename__ = \"folder\"\n    __table_args__ = {\"comment\" : \"사진첩 폴더\"}\n    id: int = Column(\n        Integer, primary_key=True, autoincrement=True, comment=\"Row ID\"\n    )\n    uuid = Column(UUID(as_uuid=True), unique=True, default=uuid.uuid4, comment=\"폴더 UUID, Front 제공용 ID\")\n    name = Column(String(50), nullable=False, comment=\"폴더 이름\")\n    created_at = Column(DateTime(), default=datetime.now())\n    updated_at = Column(DateTime(), onupdate=datetime.now())",
+        "detail": "app.schemas.folder",
         "documentation": {}
     },
     {
