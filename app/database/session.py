@@ -1,19 +1,13 @@
 from sqlalchemy.ext.asyncio import AsyncSession, create_async_engine
 from sqlalchemy.orm import declarative_base, sessionmaker
 
-SQLALCHEMY_DATABASE_URL = "mysql://user:password@postgresserver/db"
-
-engine = create_async_engine(
-    SQLALCHEMY_DATABASE_URL, 
-    pool_pre_ping=True, 
-    pool_size=15, 
-    max_overflow=0, 
-)
+from app.config.config import SQLALCHEMY_DATABASE_URI
 
 engine = create_async_engine(
     SQLALCHEMY_DATABASE_URI,
-    connect_args=SQLALCHEMY_ENGINE_CONNECTION_ARGS,
     pool_pre_ping=True,
+    pool_size=15,
+    max_overflow=0,
 )
 
 async_session = sessionmaker(

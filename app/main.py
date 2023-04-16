@@ -2,6 +2,7 @@ from fastapi import FastAPI
 
 from app.apis import router
 
+
 def register_router(application: FastAPI):
     application.include_router(router)
 
@@ -16,5 +17,6 @@ def create_application() -> FastAPI:
     )
     register_router(application)
     return application
+
 
 app = create_application()

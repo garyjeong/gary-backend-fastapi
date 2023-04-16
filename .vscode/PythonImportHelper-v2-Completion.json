@@ -1,98 +1,82 @@
 [
     {
-        "label": "fileConfig",
-        "importPath": "logging.config",
-        "description": "logging.config",
+        "label": "UUID",
+        "importPath": "uuid",
+        "description": "uuid",
         "isExtraImport": true,
-        "detail": "logging.config",
+        "detail": "uuid",
         "documentation": {}
     },
     {
-        "label": "engine_from_config",
-        "importPath": "sqlalchemy",
-        "description": "sqlalchemy",
+        "label": "UUID",
+        "importPath": "uuid",
+        "description": "uuid",
         "isExtraImport": true,
-        "detail": "sqlalchemy",
+        "detail": "uuid",
         "documentation": {}
     },
     {
-        "label": "pool",
-        "importPath": "sqlalchemy",
-        "description": "sqlalchemy",
+        "label": "uuid4",
+        "importPath": "uuid",
+        "description": "uuid",
         "isExtraImport": true,
-        "detail": "sqlalchemy",
+        "detail": "uuid",
         "documentation": {}
     },
     {
-        "label": "Column",
-        "importPath": "sqlalchemy",
-        "description": "sqlalchemy",
+        "label": "UUID",
+        "importPath": "uuid",
+        "description": "uuid",
         "isExtraImport": true,
-        "detail": "sqlalchemy",
+        "detail": "uuid",
         "documentation": {}
     },
     {
-        "label": "Integer",
-        "importPath": "sqlalchemy",
-        "description": "sqlalchemy",
+        "label": "uuid4",
+        "importPath": "uuid",
+        "description": "uuid",
         "isExtraImport": true,
-        "detail": "sqlalchemy",
+        "detail": "uuid",
         "documentation": {}
     },
     {
-        "label": "String",
-        "importPath": "sqlalchemy",
-        "description": "sqlalchemy",
+        "label": "UUID",
+        "importPath": "uuid",
+        "description": "uuid",
         "isExtraImport": true,
-        "detail": "sqlalchemy",
+        "detail": "uuid",
         "documentation": {}
     },
     {
-        "label": "DateTime",
-        "importPath": "sqlalchemy",
-        "description": "sqlalchemy",
+        "label": "UUID",
+        "importPath": "uuid",
+        "description": "uuid",
         "isExtraImport": true,
-        "detail": "sqlalchemy",
+        "detail": "uuid",
         "documentation": {}
     },
     {
-        "label": "Column",
-        "importPath": "sqlalchemy",
-        "description": "sqlalchemy",
+        "label": "APIRouter",
+        "importPath": "fastapi",
+        "description": "fastapi",
         "isExtraImport": true,
-        "detail": "sqlalchemy",
+        "detail": "fastapi",
         "documentation": {}
     },
     {
-        "label": "Integer",
-        "importPath": "sqlalchemy",
-        "description": "sqlalchemy",
+        "label": "Body",
+        "importPath": "fastapi",
+        "description": "fastapi",
         "isExtraImport": true,
-        "detail": "sqlalchemy",
+        "detail": "fastapi",
         "documentation": {}
     },
     {
-        "label": "String",
-        "importPath": "sqlalchemy",
-        "description": "sqlalchemy",
+        "label": "Query",
+        "importPath": "fastapi",
+        "description": "fastapi",
         "isExtraImport": true,
-        "detail": "sqlalchemy",
-        "documentation": {}
-    },
-    {
-        "label": "DateTime",
-        "importPath": "sqlalchemy",
-        "description": "sqlalchemy",
-        "isExtraImport": true,
-        "detail": "sqlalchemy",
-        "documentation": {}
-    },
-    {
-        "label": "context",
-        "importPath": "alembic",
-        "description": "alembic",
-        "isExtraImport": true,
-        "detail": "alembic",
+        "detail": "fastapi",
         "documentation": {}
     },
     {
@@ -112,6 +96,47 @@
         "documentation": {}
     },
     {
+        "label": "FolderController",
+        "importPath": "app.controllers.folder",
+        "description": "app.controllers.folder",
+        "isExtraImport": true,
+        "detail": "app.controllers.folder",
+        "documentation": {}
+    },
+    {
+        "label": "os",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os",
+        "description": "os",
+        "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "load_dotenv",
+        "importPath": "dotenv",
+        "description": "dotenv",
+        "isExtraImport": true,
+        "detail": "dotenv",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
         "label": "AsyncSession",
         "importPath": "sqlalchemy.ext.asyncio",
         "description": "sqlalchemy.ext.asyncio",
@@ -121,6 +146,14 @@
     },
     {
         "label": "create_async_engine",
+        "importPath": "sqlalchemy.ext.asyncio",
+        "description": "sqlalchemy.ext.asyncio",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.ext.asyncio",
+        "documentation": {}
+    },
+    {
+        "label": "AsyncEngine",
         "importPath": "sqlalchemy.ext.asyncio",
         "description": "sqlalchemy.ext.asyncio",
         "isExtraImport": true,
@@ -144,44 +177,165 @@
         "documentation": {}
     },
     {
-        "label": "uuid",
+        "label": "declarative_base",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "relationship",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "relationship",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "SQLALCHEMY_DATABASE_URI",
+        "importPath": "app.config.config",
+        "description": "app.config.config",
+        "isExtraImport": true,
+        "detail": "app.config.config",
+        "documentation": {}
+    },
+    {
+        "label": "SQLALCHEMY_DATABASE_URI",
+        "importPath": "app.config.config",
+        "description": "app.config.config",
+        "isExtraImport": true,
+        "detail": "app.config.config",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "sqlalchemy",
         "kind": 6,
         "isExtraImport": true,
-        "importPath": "uuid",
-        "description": "uuid",
-        "detail": "uuid",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "detail": "sqlalchemy",
         "documentation": {}
     },
     {
-        "label": "datetime",
-        "importPath": "datetime",
-        "description": "datetime",
+        "label": "Column",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
         "isExtraImport": true,
-        "detail": "datetime",
+        "detail": "sqlalchemy",
         "documentation": {}
     },
     {
-        "label": "datetime",
-        "importPath": "datetime",
-        "description": "datetime",
+        "label": "DateTime",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
         "isExtraImport": true,
-        "detail": "datetime",
+        "detail": "sqlalchemy",
         "documentation": {}
     },
     {
-        "label": "UUID",
-        "importPath": "sqlalchemy.dialects.mysql",
-        "description": "sqlalchemy.dialects.mysql",
+        "label": "String",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
         "isExtraImport": true,
-        "detail": "sqlalchemy.dialects.mysql",
+        "detail": "sqlalchemy",
         "documentation": {}
     },
     {
-        "label": "UUID",
-        "importPath": "sqlalchemy.dialects.mysql",
-        "description": "sqlalchemy.dialects.mysql",
+        "label": "Column",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
         "isExtraImport": true,
-        "detail": "sqlalchemy.dialects.mysql",
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "DateTime",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "ForeignKey",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "String",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "engine_from_config",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "pool",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "sqlalchemy_utils",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "sqlalchemy_utils",
+        "description": "sqlalchemy_utils",
+        "detail": "sqlalchemy_utils",
+        "documentation": {}
+    },
+    {
+        "label": "UUIDType",
+        "importPath": "sqlalchemy_utils",
+        "description": "sqlalchemy_utils",
+        "isExtraImport": true,
+        "detail": "sqlalchemy_utils",
+        "documentation": {}
+    },
+    {
+        "label": "UUIDType",
+        "importPath": "sqlalchemy_utils",
+        "description": "sqlalchemy_utils",
+        "isExtraImport": true,
+        "detail": "sqlalchemy_utils",
         "documentation": {}
     },
     {
@@ -198,6 +352,22 @@
         "description": "app.database.session",
         "isExtraImport": true,
         "detail": "app.database.session",
+        "documentation": {}
+    },
+    {
+        "label": "BaseModel",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "BaseModel",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
         "documentation": {}
     },
     {
@@ -209,39 +379,61 @@
         "documentation": {}
     },
     {
-        "label": "run_migrations_offline",
-        "kind": 2,
-        "importPath": "alembic.env",
-        "description": "alembic.env",
-        "peekOfCode": "def run_migrations_offline() -> None:\n    \"\"\"Run migrations in 'offline' mode.\n    This configures the context with just a URL\n    and not an Engine, though an Engine is acceptable\n    here as well.  By skipping the Engine creation\n    we don't even need a DBAPI to be available.\n    Calls to context.execute() here emit the given string to the\n    script output.\n    \"\"\"\n    url = config.get_main_option(\"sqlalchemy.url\")",
-        "detail": "alembic.env",
+        "label": "op",
+        "importPath": "alembic",
+        "description": "alembic",
+        "isExtraImport": true,
+        "detail": "alembic",
         "documentation": {}
     },
     {
-        "label": "run_migrations_online",
-        "kind": 2,
-        "importPath": "alembic.env",
-        "description": "alembic.env",
-        "peekOfCode": "def run_migrations_online() -> None:\n    \"\"\"Run migrations in 'online' mode.\n    In this scenario we need to create an Engine\n    and associate a connection with the context.\n    \"\"\"\n    connectable = engine_from_config(\n        config.get_section(config.config_ini_section),\n        prefix=\"sqlalchemy.\",\n        poolclass=pool.NullPool,\n    )",
-        "detail": "alembic.env",
+        "label": "context",
+        "importPath": "alembic",
+        "description": "alembic",
+        "isExtraImport": true,
+        "detail": "alembic",
         "documentation": {}
     },
     {
-        "label": "config",
+        "label": "asyncio",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "asyncio",
+        "description": "asyncio",
+        "detail": "asyncio",
+        "documentation": {}
+    },
+    {
+        "label": "fileConfig",
+        "importPath": "logging.config",
+        "description": "logging.config",
+        "isExtraImport": true,
+        "detail": "logging.config",
+        "documentation": {}
+    },
+    {
+        "label": "Connection",
+        "importPath": "sqlalchemy.future",
+        "description": "sqlalchemy.future",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.future",
+        "documentation": {}
+    },
+    {
+        "label": "Base",
+        "importPath": "app.models",
+        "description": "app.models",
+        "isExtraImport": true,
+        "detail": "app.models",
+        "documentation": {}
+    },
+    {
+        "label": "folder_router",
         "kind": 5,
-        "importPath": "alembic.env",
-        "description": "alembic.env",
-        "peekOfCode": "config = context.config\n# Interpret the config file for Python logging.\n# This line sets up loggers basically.\nif config.config_file_name is not None:\n    fileConfig(config.config_file_name)\n# add your model's MetaData object here\n# for 'autogenerate' support\n# from myapp import mymodel\n# target_metadata = mymodel.Base.metadata\ntarget_metadata = None",
-        "detail": "alembic.env",
-        "documentation": {}
-    },
-    {
-        "label": "target_metadata",
-        "kind": 5,
-        "importPath": "alembic.env",
-        "description": "alembic.env",
-        "peekOfCode": "target_metadata = None\n# other values from the config, defined by the needs of env.py,\n# can be acquired:\n# my_important_option = config.get_main_option(\"my_important_option\")\n# ... etc.\ndef run_migrations_offline() -> None:\n    \"\"\"Run migrations in 'offline' mode.\n    This configures the context with just a URL\n    and not an Engine, though an Engine is acceptable\n    here as well.  By skipping the Engine creation",
-        "detail": "alembic.env",
+        "importPath": "app.apis.folder",
+        "description": "app.apis.folder",
+        "peekOfCode": "folder_router = APIRouter(prefix=\"/folder\", tags=[\"Folders\"])\n@folder_router.get()\nasync def get_folder(f: UUID = Query(..., description=\"폴더 고유 아이디\")):\n    return await FolderController.get_folder(uuid=f)\n@folder_router.post()\nasync def make_folder(name: str = Body(..., description=\"폴더 이름\")):\n    return await FolderController.make_folder(name=name)\n@folder_router.patch()\nasync def update_folder(\n    f: UUID = Query(..., description=\"폴더 고유 아이디\"),",
+        "detail": "app.apis.folder",
         "documentation": {}
     },
     {
@@ -254,12 +446,48 @@
         "documentation": {}
     },
     {
-        "label": "SQLALCHEMY_DATABASE_URL",
-        "kind": 5,
-        "importPath": "app.database.session",
-        "description": "app.database.session",
-        "peekOfCode": "SQLALCHEMY_DATABASE_URL = \"mysql://user:password@postgresserver/db\"\nengine = create_async_engine(\n    SQLALCHEMY_DATABASE_URL, \n    pool_pre_ping=True, \n    pool_size=15, \n    max_overflow=0, \n)\nengine = create_async_engine(\n    SQLALCHEMY_DATABASE_URI,\n    connect_args=SQLALCHEMY_ENGINE_CONNECTION_ARGS,",
-        "detail": "app.database.session",
+        "label": "get_env",
+        "kind": 2,
+        "importPath": "app.config.config",
+        "description": "app.config.config",
+        "peekOfCode": "def get_env():\n    return os.getenv(\"APP_ENV\", \"local\")\ndef create_database_uri() -> str:\n    host = os.getenv(\"DB_HOST\")\n    port = os.getenv(\"DB_PORT\")\n    dbname = os.getenv(\"DB_NAME\")\n    username = os.getenv(\"DB_USERNAME\")\n    password = os.getenv(\"DB_PASSWORD\")\n    return f\"mysql+aiomysql://{username}:{password}@{host}:{port}/{dbname}\"\ndef get_database_uri() -> str:",
+        "detail": "app.config.config",
+        "documentation": {}
+    },
+    {
+        "label": "create_database_uri",
+        "kind": 2,
+        "importPath": "app.config.config",
+        "description": "app.config.config",
+        "peekOfCode": "def create_database_uri() -> str:\n    host = os.getenv(\"DB_HOST\")\n    port = os.getenv(\"DB_PORT\")\n    dbname = os.getenv(\"DB_NAME\")\n    username = os.getenv(\"DB_USERNAME\")\n    password = os.getenv(\"DB_PASSWORD\")\n    return f\"mysql+aiomysql://{username}:{password}@{host}:{port}/{dbname}\"\ndef get_database_uri() -> str:\n    app_env = get_env()\n    env_file_name = f\"envs/.env.{app_env}\"",
+        "detail": "app.config.config",
+        "documentation": {}
+    },
+    {
+        "label": "get_database_uri",
+        "kind": 2,
+        "importPath": "app.config.config",
+        "description": "app.config.config",
+        "peekOfCode": "def get_database_uri() -> str:\n    app_env = get_env()\n    env_file_name = f\"envs/.env.{app_env}\"\n    load_dotenv(dotenv_path=env_file_name)\n    return create_database_uri()\nSQLALCHEMY_DATABASE_URI: str = get_database_uri()",
+        "detail": "app.config.config",
+        "documentation": {}
+    },
+    {
+        "label": "FolderController",
+        "kind": 6,
+        "importPath": "app.controllers.folder",
+        "description": "app.controllers.folder",
+        "peekOfCode": "class FolderController:\n    async def get_folder(uuid: str):\n        return\n    async def make_folder(name: str):\n        return\n    async def update_folder(uuid: str, name: str):\n        return\n    async def delete_folder(uuid: str):\n        return",
+        "detail": "app.controllers.folder",
+        "documentation": {}
+    },
+    {
+        "label": "PhotoController",
+        "kind": 6,
+        "importPath": "app.controllers.photo",
+        "description": "app.controllers.photo",
+        "peekOfCode": "class PhotoController:\n    async def get_photo_list(folder_id: str):\n        return\n    async def get_photo(folder_id: str, uuid: str):\n        return\n    async def make_photo(folder_id: str, memo: str, files: any):\n        return\n    async def move_photo(folder_id: str, photos: List[str]):\n        return\n    async def delete_photo(uuid: str):",
+        "detail": "app.controllers.photo",
         "documentation": {}
     },
     {
@@ -267,16 +495,7 @@
         "kind": 5,
         "importPath": "app.database.session",
         "description": "app.database.session",
-        "peekOfCode": "engine = create_async_engine(\n    SQLALCHEMY_DATABASE_URL, \n    pool_pre_ping=True, \n    pool_size=15, \n    max_overflow=0, \n)\nengine = create_async_engine(\n    SQLALCHEMY_DATABASE_URI,\n    connect_args=SQLALCHEMY_ENGINE_CONNECTION_ARGS,\n    pool_pre_ping=True,",
-        "detail": "app.database.session",
-        "documentation": {}
-    },
-    {
-        "label": "engine",
-        "kind": 5,
-        "importPath": "app.database.session",
-        "description": "app.database.session",
-        "peekOfCode": "engine = create_async_engine(\n    SQLALCHEMY_DATABASE_URI,\n    connect_args=SQLALCHEMY_ENGINE_CONNECTION_ARGS,\n    pool_pre_ping=True,\n)\nasync_session = sessionmaker(\n    bind=engine,\n    class_=AsyncSession,\n    autoflush=False,\n    autocommit=False,",
+        "peekOfCode": "engine = create_async_engine(\n    SQLALCHEMY_DATABASE_URI,\n    pool_pre_ping=True,\n    pool_size=15,\n    max_overflow=0,\n)\nasync_session = sessionmaker(\n    bind=engine,\n    class_=AsyncSession,\n    autoflush=False,",
         "detail": "app.database.session",
         "documentation": {}
     },
@@ -299,20 +518,101 @@
         "documentation": {}
     },
     {
+        "label": "Base",
+        "kind": 5,
+        "importPath": "app.models.base",
+        "description": "app.models.base",
+        "peekOfCode": "Base = declarative_base()",
+        "detail": "app.models.base",
+        "documentation": {}
+    },
+    {
         "label": "Folder",
         "kind": 6,
-        "importPath": "app.schemas.folder",
-        "description": "app.schemas.folder",
-        "peekOfCode": "class Folder(Base):\n    __tablename__ = \"folder\"\n    __table_args__ = {\"comment\" : \"사진첩 폴더\"}\n    id: int = Column(\n        Integer, primary_key=True, autoincrement=True, comment=\"Row ID\"\n    )\n    uuid = Column(UUID(as_uuid=True), unique=True, default=uuid.uuid4, comment=\"폴더 UUID, Front 제공용 ID\")\n    name = Column(String(50), nullable=False, comment=\"폴더 이름\")\n    created_at = Column(DateTime(), default=datetime.now())\n    updated_at = Column(DateTime(), onupdate=datetime.now())",
-        "detail": "app.schemas.folder",
+        "importPath": "app.models.folder",
+        "description": "app.models.folder",
+        "peekOfCode": "class Folder(Base):\n    __tablename__ = \"folder\"\n    __table_args__ = {\"comment\": \"사진첩 폴더\"}\n    uuid: UUID = Column(\n        UUIDType(binary=False),\n        primary_key=True,\n        unique=True,\n        default=uuid4,\n        comment=\"폴더 UUID, Front 제공용 ID\",\n    )",
+        "detail": "app.models.folder",
         "documentation": {}
     },
     {
         "label": "Photo",
         "kind": 6,
+        "importPath": "app.models.photo",
+        "description": "app.models.photo",
+        "peekOfCode": "class Photo(Base):\n    __tablename__ = \"photo\"\n    __table_args__ = {\"comment\": \"포토북, 사진 데이터\"}\n    uuid: UUID = Column(\n        UUIDType(binary=False),\n        primary_key=True,\n        unique=True,\n        default=uuid4,\n        comment=\"사진 UUID, Front 제공용 ID\",\n    )",
+        "detail": "app.models.photo",
+        "documentation": {}
+    },
+    {
+        "label": "GetFolder",
+        "kind": 6,
+        "importPath": "app.schemas.folder",
+        "description": "app.schemas.folder",
+        "peekOfCode": "class GetFolder(BaseModel):\n    uuid: UUID\n    class Config:\n        orm_mode = True\nclass CreateFolder(BaseModel):\n    name: str\n    class Config:\n        orm_mode = True\nclass UpdateFolder(BaseModel):\n    uuid: UUID",
+        "detail": "app.schemas.folder",
+        "documentation": {}
+    },
+    {
+        "label": "CreateFolder",
+        "kind": 6,
+        "importPath": "app.schemas.folder",
+        "description": "app.schemas.folder",
+        "peekOfCode": "class CreateFolder(BaseModel):\n    name: str\n    class Config:\n        orm_mode = True\nclass UpdateFolder(BaseModel):\n    uuid: UUID\n    name: str\n    class Config:\n        orm_mode = True\nclass DeleteFolder(BaseModel):",
+        "detail": "app.schemas.folder",
+        "documentation": {}
+    },
+    {
+        "label": "UpdateFolder",
+        "kind": 6,
+        "importPath": "app.schemas.folder",
+        "description": "app.schemas.folder",
+        "peekOfCode": "class UpdateFolder(BaseModel):\n    uuid: UUID\n    name: str\n    class Config:\n        orm_mode = True\nclass DeleteFolder(BaseModel):\n    uuid: UUID\n    class Config:\n        orm_mode = True",
+        "detail": "app.schemas.folder",
+        "documentation": {}
+    },
+    {
+        "label": "DeleteFolder",
+        "kind": 6,
+        "importPath": "app.schemas.folder",
+        "description": "app.schemas.folder",
+        "peekOfCode": "class DeleteFolder(BaseModel):\n    uuid: UUID\n    class Config:\n        orm_mode = True",
+        "detail": "app.schemas.folder",
+        "documentation": {}
+    },
+    {
+        "label": "GetPhoto",
+        "kind": 6,
         "importPath": "app.schemas.photo",
         "description": "app.schemas.photo",
-        "peekOfCode": "class Photo(Base):\n    __tablename__ = \"photo\"\n    __table_args__ = {\"comment\" : \"포토북, 사진 데이터\"}\n    id: int = Column(\n        Integer, primary_key=True, autoincrement=True, comment=\"사진 Row ID\"\n    )\n    uuid = Column(UUID(as_uuid=True), unique=True, default=uuid.uuid4, comment=\"사진 UUID, Front 제공용 ID\")\n    memo = Column(String(1000), nullable=True, comment=\"사진 메모\")\n    url = Column(String(500), nullable=False, comment=\"사진 URL\")\n    created_at = Column(DateTime(), default=datetime.now())",
+        "peekOfCode": "class GetPhoto(BaseModel):\n    uuid: UUID\n    class Config:\n        orm_mode = True\nclass CreatePhoto(BaseModel):\n    name: str\n    class Config:\n        orm_mode = True\nclass UpdatePhoto(BaseModel):\n    uuid: UUID",
+        "detail": "app.schemas.photo",
+        "documentation": {}
+    },
+    {
+        "label": "CreatePhoto",
+        "kind": 6,
+        "importPath": "app.schemas.photo",
+        "description": "app.schemas.photo",
+        "peekOfCode": "class CreatePhoto(BaseModel):\n    name: str\n    class Config:\n        orm_mode = True\nclass UpdatePhoto(BaseModel):\n    uuid: UUID\n    name: str\n    class Config:\n        orm_mode = True\nclass DeletePhoto(BaseModel):",
+        "detail": "app.schemas.photo",
+        "documentation": {}
+    },
+    {
+        "label": "UpdatePhoto",
+        "kind": 6,
+        "importPath": "app.schemas.photo",
+        "description": "app.schemas.photo",
+        "peekOfCode": "class UpdatePhoto(BaseModel):\n    uuid: UUID\n    name: str\n    class Config:\n        orm_mode = True\nclass DeletePhoto(BaseModel):\n    uuid: UUID\n    class Config:\n        orm_mode = True",
+        "detail": "app.schemas.photo",
+        "documentation": {}
+    },
+    {
+        "label": "DeletePhoto",
+        "kind": 6,
+        "importPath": "app.schemas.photo",
+        "description": "app.schemas.photo",
+        "peekOfCode": "class DeletePhoto(BaseModel):\n    uuid: UUID\n    class Config:\n        orm_mode = True",
         "detail": "app.schemas.photo",
         "documentation": {}
     },
@@ -341,6 +641,96 @@
         "description": "app.main",
         "peekOfCode": "app = create_application()",
         "detail": "app.main",
+        "documentation": {}
+    },
+    {
+        "label": "upgrade",
+        "kind": 2,
+        "importPath": "migrations.versions.0.0.1_create_folder_photo",
+        "description": "migrations.versions.0.0.1_create_folder_photo",
+        "peekOfCode": "def upgrade() -> None:\n    # ### commands auto generated by Alembic - please adjust! ###\n    op.create_table(\n        \"folder\",\n        sa.Column(\n            \"uuid\",\n            sqlalchemy_utils.types.uuid.UUIDType(binary=False),\n            nullable=False,\n            comment=\"폴더 UUID, Front 제공용 ID\",\n        ),",
+        "detail": "migrations.versions.0.0.1_create_folder_photo",
+        "documentation": {}
+    },
+    {
+        "label": "downgrade",
+        "kind": 2,
+        "importPath": "migrations.versions.0.0.1_create_folder_photo",
+        "description": "migrations.versions.0.0.1_create_folder_photo",
+        "peekOfCode": "def downgrade() -> None:\n    # ### commands auto generated by Alembic - please adjust! ###\n    op.drop_table(\"photo\")\n    op.drop_table(\"folder\")\n    # ### end Alembic commands ###",
+        "detail": "migrations.versions.0.0.1_create_folder_photo",
+        "documentation": {}
+    },
+    {
+        "label": "revision",
+        "kind": 5,
+        "importPath": "migrations.versions.0.0.1_create_folder_photo",
+        "description": "migrations.versions.0.0.1_create_folder_photo",
+        "peekOfCode": "revision = \"0.0.1\"\ndown_revision = None\nbranch_labels = None\ndepends_on = None\ndef upgrade() -> None:\n    # ### commands auto generated by Alembic - please adjust! ###\n    op.create_table(\n        \"folder\",\n        sa.Column(\n            \"uuid\",",
+        "detail": "migrations.versions.0.0.1_create_folder_photo",
+        "documentation": {}
+    },
+    {
+        "label": "down_revision",
+        "kind": 5,
+        "importPath": "migrations.versions.0.0.1_create_folder_photo",
+        "description": "migrations.versions.0.0.1_create_folder_photo",
+        "peekOfCode": "down_revision = None\nbranch_labels = None\ndepends_on = None\ndef upgrade() -> None:\n    # ### commands auto generated by Alembic - please adjust! ###\n    op.create_table(\n        \"folder\",\n        sa.Column(\n            \"uuid\",\n            sqlalchemy_utils.types.uuid.UUIDType(binary=False),",
+        "detail": "migrations.versions.0.0.1_create_folder_photo",
+        "documentation": {}
+    },
+    {
+        "label": "branch_labels",
+        "kind": 5,
+        "importPath": "migrations.versions.0.0.1_create_folder_photo",
+        "description": "migrations.versions.0.0.1_create_folder_photo",
+        "peekOfCode": "branch_labels = None\ndepends_on = None\ndef upgrade() -> None:\n    # ### commands auto generated by Alembic - please adjust! ###\n    op.create_table(\n        \"folder\",\n        sa.Column(\n            \"uuid\",\n            sqlalchemy_utils.types.uuid.UUIDType(binary=False),\n            nullable=False,",
+        "detail": "migrations.versions.0.0.1_create_folder_photo",
+        "documentation": {}
+    },
+    {
+        "label": "depends_on",
+        "kind": 5,
+        "importPath": "migrations.versions.0.0.1_create_folder_photo",
+        "description": "migrations.versions.0.0.1_create_folder_photo",
+        "peekOfCode": "depends_on = None\ndef upgrade() -> None:\n    # ### commands auto generated by Alembic - please adjust! ###\n    op.create_table(\n        \"folder\",\n        sa.Column(\n            \"uuid\",\n            sqlalchemy_utils.types.uuid.UUIDType(binary=False),\n            nullable=False,\n            comment=\"폴더 UUID, Front 제공용 ID\",",
+        "detail": "migrations.versions.0.0.1_create_folder_photo",
+        "documentation": {}
+    },
+    {
+        "label": "do_run_migrations",
+        "kind": 2,
+        "importPath": "migrations.env",
+        "description": "migrations.env",
+        "peekOfCode": "def do_run_migrations(connection: Connection) -> None:\n    context.configure(\n        connection=connection,\n        target_metadata=target_metadata,\n        compare_type=True,\n    )\n    with context.begin_transaction():\n        context.run_migrations()\ndef run_migrations_offline() -> None:\n    url = config.get_main_option(\"sqlalchemy.url\")",
+        "detail": "migrations.env",
+        "documentation": {}
+    },
+    {
+        "label": "run_migrations_offline",
+        "kind": 2,
+        "importPath": "migrations.env",
+        "description": "migrations.env",
+        "peekOfCode": "def run_migrations_offline() -> None:\n    url = config.get_main_option(\"sqlalchemy.url\")\n    context.configure(\n        url=url,\n        target_metadata=target_metadata,\n        literal_binds=True,\n        dialect_opts={\"paramstyle\": \"named\"},\n    )\n    with context.begin_transaction():\n        context.run_migrations()",
+        "detail": "migrations.env",
+        "documentation": {}
+    },
+    {
+        "label": "config",
+        "kind": 5,
+        "importPath": "migrations.env",
+        "description": "migrations.env",
+        "peekOfCode": "config = context.config\nif config.config_file_name is not None:\n    fileConfig(config.config_file_name)\ntarget_metadata = Base.metadata\nconfig.set_main_option(\"sqlalchemy.url\", SQLALCHEMY_DATABASE_URI)\ndef do_run_migrations(connection: Connection) -> None:\n    context.configure(\n        connection=connection,\n        target_metadata=target_metadata,\n        compare_type=True,",
+        "detail": "migrations.env",
+        "documentation": {}
+    },
+    {
+        "label": "target_metadata",
+        "kind": 5,
+        "importPath": "migrations.env",
+        "description": "migrations.env",
+        "peekOfCode": "target_metadata = Base.metadata\nconfig.set_main_option(\"sqlalchemy.url\", SQLALCHEMY_DATABASE_URI)\ndef do_run_migrations(connection: Connection) -> None:\n    context.configure(\n        connection=connection,\n        target_metadata=target_metadata,\n        compare_type=True,\n    )\n    with context.begin_transaction():\n        context.run_migrations()",
+        "detail": "migrations.env",
         "documentation": {}
     }
 ]
