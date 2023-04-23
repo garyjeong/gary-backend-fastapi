@@ -17,7 +17,6 @@ class CreateFolder(BaseModel):
 
 
 class UpdateFolder(BaseModel):
-    uuid: UUID
     name: str
 
     class Config:

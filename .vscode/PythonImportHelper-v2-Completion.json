@@ -1,5 +1,37 @@
 [
     {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Generator",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
         "label": "UUID",
         "importPath": "uuid",
         "description": "uuid",
@@ -72,7 +104,23 @@
         "documentation": {}
     },
     {
+        "label": "Depends",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
         "label": "Query",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Request",
         "importPath": "fastapi",
         "description": "fastapi",
         "isExtraImport": true,
@@ -96,44 +144,27 @@
         "documentation": {}
     },
     {
-        "label": "FolderController",
-        "importPath": "app.controllers.folder",
-        "description": "app.controllers.folder",
+        "label": "AsyncSession",
+        "importPath": "sqlalchemy.ext.asyncio",
+        "description": "sqlalchemy.ext.asyncio",
         "isExtraImport": true,
-        "detail": "app.controllers.folder",
+        "detail": "sqlalchemy.ext.asyncio",
         "documentation": {}
     },
     {
-        "label": "os",
-        "kind": 6,
+        "label": "AsyncSession",
+        "importPath": "sqlalchemy.ext.asyncio",
+        "description": "sqlalchemy.ext.asyncio",
         "isExtraImport": true,
-        "importPath": "os",
-        "description": "os",
-        "detail": "os",
+        "detail": "sqlalchemy.ext.asyncio",
         "documentation": {}
     },
     {
-        "label": "load_dotenv",
-        "importPath": "dotenv",
-        "description": "dotenv",
+        "label": "AsyncSession",
+        "importPath": "sqlalchemy.ext.asyncio",
+        "description": "sqlalchemy.ext.asyncio",
         "isExtraImport": true,
-        "detail": "dotenv",
-        "documentation": {}
-    },
-    {
-        "label": "List",
-        "importPath": "typing",
-        "description": "typing",
-        "isExtraImport": true,
-        "detail": "typing",
-        "documentation": {}
-    },
-    {
-        "label": "Optional",
-        "importPath": "typing",
-        "description": "typing",
-        "isExtraImport": true,
-        "detail": "typing",
+        "detail": "sqlalchemy.ext.asyncio",
         "documentation": {}
     },
     {
@@ -161,59 +192,60 @@
         "documentation": {}
     },
     {
-        "label": "declarative_base",
-        "importPath": "sqlalchemy.orm",
-        "description": "sqlalchemy.orm",
+        "label": "FolderController",
+        "importPath": "app.controllers.folder",
+        "description": "app.controllers.folder",
         "isExtraImport": true,
-        "detail": "sqlalchemy.orm",
+        "detail": "app.controllers.folder",
         "documentation": {}
     },
     {
-        "label": "sessionmaker",
-        "importPath": "sqlalchemy.orm",
-        "description": "sqlalchemy.orm",
+        "label": "get_async_session",
+        "importPath": "app.database.deps",
+        "description": "app.database.deps",
         "isExtraImport": true,
-        "detail": "sqlalchemy.orm",
+        "detail": "app.database.deps",
         "documentation": {}
     },
     {
-        "label": "declarative_base",
-        "importPath": "sqlalchemy.orm",
-        "description": "sqlalchemy.orm",
+        "label": "CreateFolder",
+        "importPath": "app.schemas.folder",
+        "description": "app.schemas.folder",
         "isExtraImport": true,
-        "detail": "sqlalchemy.orm",
+        "detail": "app.schemas.folder",
         "documentation": {}
     },
     {
-        "label": "relationship",
-        "importPath": "sqlalchemy.orm",
-        "description": "sqlalchemy.orm",
+        "label": "UpdateFolder",
+        "importPath": "app.schemas.folder",
+        "description": "app.schemas.folder",
         "isExtraImport": true,
-        "detail": "sqlalchemy.orm",
+        "detail": "app.schemas.folder",
         "documentation": {}
     },
     {
-        "label": "relationship",
-        "importPath": "sqlalchemy.orm",
-        "description": "sqlalchemy.orm",
+        "label": "os",
+        "kind": 6,
         "isExtraImport": true,
-        "detail": "sqlalchemy.orm",
+        "importPath": "os",
+        "description": "os",
+        "detail": "os",
         "documentation": {}
     },
     {
-        "label": "SQLALCHEMY_DATABASE_URI",
-        "importPath": "app.config.config",
-        "description": "app.config.config",
+        "label": "load_dotenv",
+        "importPath": "dotenv",
+        "description": "dotenv",
         "isExtraImport": true,
-        "detail": "app.config.config",
+        "detail": "dotenv",
         "documentation": {}
     },
     {
-        "label": "SQLALCHEMY_DATABASE_URI",
-        "importPath": "app.config.config",
-        "description": "app.config.config",
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
         "isExtraImport": true,
-        "detail": "app.config.config",
+        "detail": "datetime",
         "documentation": {}
     },
     {
@@ -238,6 +270,22 @@
         "isExtraImport": true,
         "importPath": "sqlalchemy",
         "description": "sqlalchemy",
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "select",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "update",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
         "detail": "sqlalchemy",
         "documentation": {}
     },
@@ -311,6 +359,70 @@
         "description": "sqlalchemy",
         "isExtraImport": true,
         "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Folder",
+        "importPath": "app.models.folder",
+        "description": "app.models.folder",
+        "isExtraImport": true,
+        "detail": "app.models.folder",
+        "documentation": {}
+    },
+    {
+        "label": "declarative_base",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "sessionmaker",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "declarative_base",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "relationship",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "relationship",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "SQLALCHEMY_DATABASE_URI",
+        "importPath": "app.config.config",
+        "description": "app.config.config",
+        "isExtraImport": true,
+        "detail": "app.config.config",
+        "documentation": {}
+    },
+    {
+        "label": "SQLALCHEMY_DATABASE_URI",
+        "importPath": "app.config.config",
+        "description": "app.config.config",
+        "isExtraImport": true,
+        "detail": "app.config.config",
         "documentation": {}
     },
     {
@@ -432,7 +544,7 @@
         "kind": 5,
         "importPath": "app.apis.folder",
         "description": "app.apis.folder",
-        "peekOfCode": "folder_router = APIRouter(prefix=\"/folder\", tags=[\"Folders\"])\n@folder_router.get()\nasync def get_folder(f: UUID = Query(..., description=\"폴더 고유 아이디\")):\n    return await FolderController.get_folder(uuid=f)\n@folder_router.post()\nasync def make_folder(name: str = Body(..., description=\"폴더 이름\")):\n    return await FolderController.make_folder(name=name)\n@folder_router.patch()\nasync def update_folder(\n    f: UUID = Query(..., description=\"폴더 고유 아이디\"),",
+        "peekOfCode": "folder_router = APIRouter(prefix=\"/folder\", tags=[\"Folders\"])\n@folder_router.get(path=\"\", summary=\"모든 폴더 가져오기\")\nasync def get_folder(\n    f: Optional[UUID] = Query(None, description=\"폴더 고유 아이디\"),\n    session: AsyncSession = Depends(get_async_session),\n):\n    return await FolderController.get_folder(session, uuid=f)\n@folder_router.post(path=\"\", summary=\"폴더 생성\")\nasync def make_folder(\n    data: CreateFolder, session: AsyncSession = Depends(get_async_session)",
         "detail": "app.apis.folder",
         "documentation": {}
     },
@@ -441,7 +553,7 @@
         "kind": 5,
         "importPath": "app.apis.photo",
         "description": "app.apis.photo",
-        "peekOfCode": "photo_router = APIRouter(prefix=\"/photos\", tags=[\"Photos\"])",
+        "peekOfCode": "photo_router = APIRouter(prefix=\"/photo\", tags=[\"Photos\"])",
         "detail": "app.apis.photo",
         "documentation": {}
     },
@@ -477,7 +589,7 @@
         "kind": 6,
         "importPath": "app.controllers.folder",
         "description": "app.controllers.folder",
-        "peekOfCode": "class FolderController:\n    async def get_folder(uuid: str):\n        return\n    async def make_folder(name: str):\n        return\n    async def update_folder(uuid: str, name: str):\n        return\n    async def delete_folder(uuid: str):\n        return",
+        "peekOfCode": "class FolderController:\n    async def get_folder(session: AsyncSession, uuid: str):\n        if uuid is None:\n            stmt = select(Folder).where((Folder.deleted_at.is_(None)))\n            result = await session.execute(stmt)\n            folders = result.scalars().all()\n            return folders\n        else:\n            stmt = select(Folder).where(\n                (Folder.deleted_at.is_(None)) & (Folder.uuid == uuid)",
         "detail": "app.controllers.folder",
         "documentation": {}
     },
@@ -549,7 +661,7 @@
         "kind": 6,
         "importPath": "app.schemas.folder",
         "description": "app.schemas.folder",
-        "peekOfCode": "class GetFolder(BaseModel):\n    uuid: UUID\n    class Config:\n        orm_mode = True\nclass CreateFolder(BaseModel):\n    name: str\n    class Config:\n        orm_mode = True\nclass UpdateFolder(BaseModel):\n    uuid: UUID",
+        "peekOfCode": "class GetFolder(BaseModel):\n    uuid: UUID\n    class Config:\n        orm_mode = True\nclass CreateFolder(BaseModel):\n    name: str\n    class Config:\n        orm_mode = True\nclass UpdateFolder(BaseModel):\n    name: str",
         "detail": "app.schemas.folder",
         "documentation": {}
     },
@@ -558,7 +670,7 @@
         "kind": 6,
         "importPath": "app.schemas.folder",
         "description": "app.schemas.folder",
-        "peekOfCode": "class CreateFolder(BaseModel):\n    name: str\n    class Config:\n        orm_mode = True\nclass UpdateFolder(BaseModel):\n    uuid: UUID\n    name: str\n    class Config:\n        orm_mode = True\nclass DeleteFolder(BaseModel):",
+        "peekOfCode": "class CreateFolder(BaseModel):\n    name: str\n    class Config:\n        orm_mode = True\nclass UpdateFolder(BaseModel):\n    name: str\n    class Config:\n        orm_mode = True\nclass DeleteFolder(BaseModel):\n    uuid: UUID",
         "detail": "app.schemas.folder",
         "documentation": {}
     },
@@ -567,7 +679,7 @@
         "kind": 6,
         "importPath": "app.schemas.folder",
         "description": "app.schemas.folder",
-        "peekOfCode": "class UpdateFolder(BaseModel):\n    uuid: UUID\n    name: str\n    class Config:\n        orm_mode = True\nclass DeleteFolder(BaseModel):\n    uuid: UUID\n    class Config:\n        orm_mode = True",
+        "peekOfCode": "class UpdateFolder(BaseModel):\n    name: str\n    class Config:\n        orm_mode = True\nclass DeleteFolder(BaseModel):\n    uuid: UUID\n    class Config:\n        orm_mode = True",
         "detail": "app.schemas.folder",
         "documentation": {}
     },
@@ -621,7 +733,7 @@
         "kind": 2,
         "importPath": "app.main",
         "description": "app.main",
-        "peekOfCode": "def register_router(application: FastAPI):\n    application.include_router(router)\ndef create_application() -> FastAPI:\n    application = FastAPI(\n        title=\"Gary API\",\n        version=\"1.0.0\",\n        openapi_url=\"/openapi.json\",\n        redoc_url=\"/redoc\",\n        docs_url=\"/docs\",\n    )",
+        "peekOfCode": "def register_router(application: FastAPI):\n    application.include_router(router=router)\ndef create_application() -> FastAPI:\n    application = FastAPI(\n        title=\"Gary API\",\n        version=\"1.0.0\",\n        openapi_url=\"/openapi.json\",\n        redoc_url=\"/redoc\",\n        docs_url=\"/docs\",\n    )",
         "detail": "app.main",
         "documentation": {}
     },

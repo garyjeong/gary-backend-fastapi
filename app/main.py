@@ -4,7 +4,7 @@ from app.apis import router
 
 
 def register_router(application: FastAPI):
-    application.include_router(router)
+    application.include_router(router=router)
 
 
 def create_application() -> FastAPI:

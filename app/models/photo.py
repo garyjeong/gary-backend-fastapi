@@ -33,3 +33,5 @@ class Photo(Base):
         nullable=False,
         comment="폴더 UUID",
     )
+
+    folder = relationship("Folder", back_populates="photos")
