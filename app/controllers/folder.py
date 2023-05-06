@@ -26,7 +26,7 @@ class FolderController:
         folders = result.scalars().all()
 
         return [
-            FolderResponse(uuid=f.uuid, folder_name=f.name)
+            FolderResponse.from_orm(folder=f)
             for f in folders
         ]
 
@@ -36,20 +36,16 @@ class FolderController:
         folder = Folder(name=name)
         session.add(folder)
         await session.commit()
-        return FolderResponse(
-            uuid=folder.uuid, folder_name=folder.name
-        )
+        return FolderResponse.from_orm(folder=folder)
 
     async def update_folder(
         session: AsyncSession, folder_uid: str, name: str
-    ) -> Optional[FolderResponse]:
+    ) -> FolderResponse:
         folder = await session.get(Folder, folder_uid)
         if folder:
             folder.name = name
             await session.commit()
-        return FolderResponse(
-            uuid=folder.uuid, folder_name=folder.name
-        )
+        return FolderResponse.from_orm(folder=folder)
 
     async def delete_folder(
         session: AsyncSession, folder_uid: str

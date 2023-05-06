@@ -42,10 +42,7 @@ class PhotoController:
         photos = result.scalars().all()
 
         return [
-            PhotoResponse(
-                uuid=p.uuid, memo=p.memo, url=p.url
-            )
-            for p in photos
+            PhotoResponse.from_orm(photo=p) for p in photos
         ]
 
     async def make_photos(
@@ -96,10 +93,7 @@ class PhotoController:
 
         await session.commit()
         return [
-            PhotoResponse(
-                uuid=p.uuid, memo=p.memo, url=p.url
-            )
-            for p in photos
+            PhotoResponse.from_orm(photo=p) for p in photos
         ]
 
     async def update_photo(
@@ -117,9 +111,7 @@ class PhotoController:
         photo.memo = memo
 
         await session.commit()
-        return PhotoResponse(
-            uuid=photo.uuid, memo=photo.memo, url=photo.url
-        )
+        return PhotoResponse.from_orm(photo=photo)
 
     async def move_photo(
         session: AsyncSession,
@@ -142,12 +134,7 @@ class PhotoController:
 
         await session.commit()
         return [
-            PhotoResponse(
-                uuid=p.uuid,
-                memo=p.memo,
-                folder_uid=p.folder_uid,
-            )
-            for p in result
+            PhotoResponse.from_orm(photo=p) for p in result
         ]
 
     async def delete_photo(

@@ -418,6 +418,22 @@
         "documentation": {}
     },
     {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
         "label": "sqlalchemy",
         "kind": 6,
         "isExtraImport": true,
@@ -905,7 +921,7 @@
         "kind": 6,
         "importPath": "app.schemas.folder",
         "description": "app.schemas.folder",
-        "peekOfCode": "class DeleteFolder(BaseModel):\n    uuid: UUID\n    class Config:\n        orm_mode = True\nclass FolderResponse(BaseModel):\n    uuid: UUID\n    folder_name: str",
+        "peekOfCode": "class DeleteFolder(BaseModel):\n    uuid: UUID\n    class Config:\n        orm_mode = True\nclass FolderResponse(BaseModel):\n    uuid: UUID\n    name: str\n    created_at: str\n    updated_at: str\n    @classmethod",
         "detail": "app.schemas.folder",
         "documentation": {}
     },
@@ -914,7 +930,7 @@
         "kind": 6,
         "importPath": "app.schemas.folder",
         "description": "app.schemas.folder",
-        "peekOfCode": "class FolderResponse(BaseModel):\n    uuid: UUID\n    folder_name: str",
+        "peekOfCode": "class FolderResponse(BaseModel):\n    uuid: UUID\n    name: str\n    created_at: str\n    updated_at: str\n    @classmethod\n    def from_orm(cls, folder):\n        return cls(\n            uuid=folder.uuid,\n            name=folder.name,",
         "detail": "app.schemas.folder",
         "documentation": {}
     },
@@ -950,7 +966,7 @@
         "kind": 6,
         "importPath": "app.schemas.photo",
         "description": "app.schemas.photo",
-        "peekOfCode": "class DeletePhoto(BaseModel):\n    uuid: UUID\n    class Config:\n        orm_mode = True\nclass PhotoResponse(BaseModel):\n    uuid: UUID\n    memo: Optional[str]\n    url: str",
+        "peekOfCode": "class DeletePhoto(BaseModel):\n    uuid: UUID\n    class Config:\n        orm_mode = True\nclass PhotoResponse(BaseModel):\n    uuid: UUID\n    memo: Optional[str]\n    url: str\n    created_at: str\n    updated_at: str",
         "detail": "app.schemas.photo",
         "documentation": {}
     },
@@ -959,7 +975,7 @@
         "kind": 6,
         "importPath": "app.schemas.photo",
         "description": "app.schemas.photo",
-        "peekOfCode": "class PhotoResponse(BaseModel):\n    uuid: UUID\n    memo: Optional[str]\n    url: str",
+        "peekOfCode": "class PhotoResponse(BaseModel):\n    uuid: UUID\n    memo: Optional[str]\n    url: str\n    created_at: str\n    updated_at: str\n    @classmethod\n    def from_orm(cls, photo):\n        return cls(\n            uuid=photo.uuid,",
         "detail": "app.schemas.photo",
         "documentation": {}
     },
