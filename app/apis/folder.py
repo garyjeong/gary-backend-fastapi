@@ -35,11 +35,11 @@ async def get_folder(
     path="", summary="폴더 생성", response_model=FolderResponse
 )
 async def make_folder(
-    data: CreateFolder,
+    body: dict = Body("name", description="폴더 이름"),
     session: AsyncSession = Depends(get_async_session),
 ) -> FolderResponse:
     return await FolderController.make_folder(
-        session=session, name=data.name
+        session=session, name=body["name"]
     )
 
 
@@ -49,14 +49,14 @@ async def make_folder(
     response_model=FolderResponse,
 )
 async def update_folder(
-    data: UpdateFolder,
     f: UUID = Query(..., description="폴더 고유 아이디"),
+    body: dict = Body("name", description="폴더 이름"),
     session: AsyncSession = Depends(get_async_session),
 ) -> FolderResponse:
     return await FolderController.update_folder(
         session=session,
         folder_uid=str(f) if f is not None else None,
-        name=data.name,
+        name=body["name"],
     )
 
 

@@ -63,13 +63,13 @@ async def make_photo(
 @photo_router.patch(
     path="",
     summary="사진 메모 수정",
-    response_model=list[PhotoResponse],
+    response_model=PhotoResponse,
 )
 async def update_photo(
     p: UUID = Query(None, description="사진 고유 아이디"),
     body: dict = Body("memo", description="변경할 메모"),
     session: AsyncSession = Depends(get_async_session),
-) -> list[PhotoResponse]:
+) -> PhotoResponse:
     return await PhotoController.update_photo(
         session=session,
         photo_uid=str(p) if p is not None else None,

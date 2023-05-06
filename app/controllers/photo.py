@@ -118,8 +118,7 @@ class PhotoController:
 
         await session.commit()
         return PhotoResponse(
-            uuid=photo.uuid,
-            memo=photo.memo,
+            uuid=photo.uuid, memo=photo.memo, url=photo.url
         )
 
     async def move_photo(
