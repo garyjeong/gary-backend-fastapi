@@ -1,3 +1,5 @@
+import os
+
 from fastapi import FastAPI
 
 from app.apis import router
@@ -16,6 +18,7 @@ def create_application() -> FastAPI:
         docs_url="/docs",
     )
     register_router(application)
+
     return application
 
 

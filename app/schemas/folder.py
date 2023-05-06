@@ -28,3 +28,8 @@ class DeleteFolder(BaseModel):
 
     class Config:
         orm_mode = True
+
+
+class FolderResponse(BaseModel):
+    uuid: UUID
+    folder_name: str

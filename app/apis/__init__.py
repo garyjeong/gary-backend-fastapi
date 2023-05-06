@@ -5,4 +5,4 @@ from app.apis.photo import photo_router
 
 router = APIRouter()
 router.include_router(folder_router)
-# router.include_router(photo_router)
+router.include_router(photo_router)

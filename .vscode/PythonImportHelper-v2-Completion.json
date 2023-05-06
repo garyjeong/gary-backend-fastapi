@@ -16,6 +16,30 @@
         "documentation": {}
     },
     {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
         "label": "Generator",
         "importPath": "typing",
         "description": "typing",
@@ -29,6 +53,23 @@
         "description": "typing",
         "isExtraImport": true,
         "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "uuid",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "uuid",
+        "description": "uuid",
+        "detail": "uuid",
+        "documentation": {}
+    },
+    {
+        "label": "UUID",
+        "importPath": "uuid",
+        "description": "uuid",
+        "isExtraImport": true,
+        "detail": "uuid",
         "documentation": {}
     },
     {
@@ -136,11 +177,83 @@
         "documentation": {}
     },
     {
+        "label": "Body",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Depends",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "File",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Query",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Request",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "UploadFile",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Request",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
         "label": "FastAPI",
         "importPath": "fastapi",
         "description": "fastapi",
         "isExtraImport": true,
         "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "AsyncSession",
+        "importPath": "sqlalchemy.ext.asyncio",
+        "description": "sqlalchemy.ext.asyncio",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.ext.asyncio",
+        "documentation": {}
+    },
+    {
+        "label": "AsyncSession",
+        "importPath": "sqlalchemy.ext.asyncio",
+        "description": "sqlalchemy.ext.asyncio",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.ext.asyncio",
         "documentation": {}
     },
     {
@@ -208,6 +321,14 @@
         "documentation": {}
     },
     {
+        "label": "get_async_session",
+        "importPath": "app.database.deps",
+        "description": "app.database.deps",
+        "isExtraImport": true,
+        "detail": "app.database.deps",
+        "documentation": {}
+    },
+    {
         "label": "CreateFolder",
         "importPath": "app.schemas.folder",
         "description": "app.schemas.folder",
@@ -221,6 +342,46 @@
         "description": "app.schemas.folder",
         "isExtraImport": true,
         "detail": "app.schemas.folder",
+        "documentation": {}
+    },
+    {
+        "label": "FolderResponse",
+        "importPath": "app.schemas.folder",
+        "description": "app.schemas.folder",
+        "isExtraImport": true,
+        "detail": "app.schemas.folder",
+        "documentation": {}
+    },
+    {
+        "label": "FolderResponse",
+        "importPath": "app.schemas.folder",
+        "description": "app.schemas.folder",
+        "isExtraImport": true,
+        "detail": "app.schemas.folder",
+        "documentation": {}
+    },
+    {
+        "label": "PhotoController",
+        "importPath": "app.controllers.photo",
+        "description": "app.controllers.photo",
+        "isExtraImport": true,
+        "detail": "app.controllers.photo",
+        "documentation": {}
+    },
+    {
+        "label": "PhotoResponse",
+        "importPath": "app.schemas.photo",
+        "description": "app.schemas.photo",
+        "isExtraImport": true,
+        "detail": "app.schemas.photo",
+        "documentation": {}
+    },
+    {
+        "label": "PhotoResponse",
+        "importPath": "app.schemas.photo",
+        "description": "app.schemas.photo",
+        "isExtraImport": true,
+        "detail": "app.schemas.photo",
         "documentation": {}
     },
     {
@@ -238,14 +399,6 @@
         "description": "dotenv",
         "isExtraImport": true,
         "detail": "dotenv",
-        "documentation": {}
-    },
-    {
-        "label": "datetime",
-        "importPath": "datetime",
-        "description": "datetime",
-        "isExtraImport": true,
-        "detail": "datetime",
         "documentation": {}
     },
     {
@@ -290,7 +443,7 @@
         "documentation": {}
     },
     {
-        "label": "Column",
+        "label": "select",
         "importPath": "sqlalchemy",
         "description": "sqlalchemy",
         "isExtraImport": true,
@@ -298,7 +451,23 @@
         "documentation": {}
     },
     {
-        "label": "DateTime",
+        "label": "update",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "TIMESTAMP",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Column",
         "importPath": "sqlalchemy",
         "description": "sqlalchemy",
         "isExtraImport": true,
@@ -314,7 +483,7 @@
         "documentation": {}
     },
     {
-        "label": "Column",
+        "label": "TIMESTAMP",
         "importPath": "sqlalchemy",
         "description": "sqlalchemy",
         "isExtraImport": true,
@@ -322,7 +491,15 @@
         "documentation": {}
     },
     {
-        "label": "DateTime",
+        "label": "VARCHAR",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Column",
         "importPath": "sqlalchemy",
         "description": "sqlalchemy",
         "isExtraImport": true,
@@ -339,6 +516,14 @@
     },
     {
         "label": "String",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "text",
         "importPath": "sqlalchemy",
         "description": "sqlalchemy",
         "isExtraImport": true,
@@ -367,6 +552,54 @@
         "description": "app.models.folder",
         "isExtraImport": true,
         "detail": "app.models.folder",
+        "documentation": {}
+    },
+    {
+        "label": "Folder",
+        "importPath": "app.models.folder",
+        "description": "app.models.folder",
+        "isExtraImport": true,
+        "detail": "app.models.folder",
+        "documentation": {}
+    },
+    {
+        "label": "get_image_host_url",
+        "importPath": "app.config.config",
+        "description": "app.config.config",
+        "isExtraImport": true,
+        "detail": "app.config.config",
+        "documentation": {}
+    },
+    {
+        "label": "SQLALCHEMY_DATABASE_URI",
+        "importPath": "app.config.config",
+        "description": "app.config.config",
+        "isExtraImport": true,
+        "detail": "app.config.config",
+        "documentation": {}
+    },
+    {
+        "label": "SQLALCHEMY_DATABASE_URI",
+        "importPath": "app.config.config",
+        "description": "app.config.config",
+        "isExtraImport": true,
+        "detail": "app.config.config",
+        "documentation": {}
+    },
+    {
+        "label": "Photo",
+        "importPath": "app.models.photo",
+        "description": "app.models.photo",
+        "isExtraImport": true,
+        "detail": "app.models.photo",
+        "documentation": {}
+    },
+    {
+        "label": "Photo",
+        "importPath": "app.models.photo",
+        "description": "app.models.photo",
+        "isExtraImport": true,
+        "detail": "app.models.photo",
         "documentation": {}
     },
     {
@@ -410,44 +643,19 @@
         "documentation": {}
     },
     {
-        "label": "SQLALCHEMY_DATABASE_URI",
-        "importPath": "app.config.config",
-        "description": "app.config.config",
+        "label": "func",
+        "importPath": "sqlalchemy.sql",
+        "description": "sqlalchemy.sql",
         "isExtraImport": true,
-        "detail": "app.config.config",
+        "detail": "sqlalchemy.sql",
         "documentation": {}
     },
     {
-        "label": "SQLALCHEMY_DATABASE_URI",
-        "importPath": "app.config.config",
-        "description": "app.config.config",
+        "label": "func",
+        "importPath": "sqlalchemy.sql",
+        "description": "sqlalchemy.sql",
         "isExtraImport": true,
-        "detail": "app.config.config",
-        "documentation": {}
-    },
-    {
-        "label": "sqlalchemy_utils",
-        "kind": 6,
-        "isExtraImport": true,
-        "importPath": "sqlalchemy_utils",
-        "description": "sqlalchemy_utils",
-        "detail": "sqlalchemy_utils",
-        "documentation": {}
-    },
-    {
-        "label": "UUIDType",
-        "importPath": "sqlalchemy_utils",
-        "description": "sqlalchemy_utils",
-        "isExtraImport": true,
-        "detail": "sqlalchemy_utils",
-        "documentation": {}
-    },
-    {
-        "label": "UUIDType",
-        "importPath": "sqlalchemy_utils",
-        "description": "sqlalchemy_utils",
-        "isExtraImport": true,
-        "detail": "sqlalchemy_utils",
+        "detail": "sqlalchemy.sql",
         "documentation": {}
     },
     {
@@ -544,7 +752,7 @@
         "kind": 5,
         "importPath": "app.apis.folder",
         "description": "app.apis.folder",
-        "peekOfCode": "folder_router = APIRouter(prefix=\"/folder\", tags=[\"Folders\"])\n@folder_router.get(path=\"\", summary=\"모든 폴더 가져오기\")\nasync def get_folder(\n    f: Optional[UUID] = Query(None, description=\"폴더 고유 아이디\"),\n    session: AsyncSession = Depends(get_async_session),\n):\n    return await FolderController.get_folder(session, uuid=f)\n@folder_router.post(path=\"\", summary=\"폴더 생성\")\nasync def make_folder(\n    data: CreateFolder, session: AsyncSession = Depends(get_async_session)",
+        "peekOfCode": "folder_router = APIRouter(\n    prefix=\"/folder\", tags=[\"Folders\"]\n)\n@folder_router.get(\n    path=\"\",\n    summary=\"모든 폴더 가져오기\",\n    response_model=list[FolderResponse],\n)\nasync def get_folder(\n    f: Optional[UUID] = Query(",
         "detail": "app.apis.folder",
         "documentation": {}
     },
@@ -553,7 +761,7 @@
         "kind": 5,
         "importPath": "app.apis.photo",
         "description": "app.apis.photo",
-        "peekOfCode": "photo_router = APIRouter(prefix=\"/photo\", tags=[\"Photos\"])",
+        "peekOfCode": "photo_router = APIRouter(prefix=\"/photo\", tags=[\"Photos\"])\n@photo_router.get(\n    path=\"\",\n    summary=\"모든 사진 또는 폴더의 사진 가져오기\",\n    response_model=list[PhotoResponse],\n)\nasync def get_photos(\n    f: Optional[UUID] = Query(\n        None, description=\"사진 고유 아이디\"\n    ),",
         "detail": "app.apis.photo",
         "documentation": {}
     },
@@ -562,7 +770,16 @@
         "kind": 2,
         "importPath": "app.config.config",
         "description": "app.config.config",
-        "peekOfCode": "def get_env():\n    return os.getenv(\"APP_ENV\", \"local\")\ndef create_database_uri() -> str:\n    host = os.getenv(\"DB_HOST\")\n    port = os.getenv(\"DB_PORT\")\n    dbname = os.getenv(\"DB_NAME\")\n    username = os.getenv(\"DB_USERNAME\")\n    password = os.getenv(\"DB_PASSWORD\")\n    return f\"mysql+aiomysql://{username}:{password}@{host}:{port}/{dbname}\"\ndef get_database_uri() -> str:",
+        "peekOfCode": "def get_env():\n    return os.getenv(\"APP_ENV\", \"local\")\ndef get_image_host_url():\n    return os.getenv(\"IMAGE_HOST\")\ndef create_database_uri() -> str:\n    host = os.getenv(\"DB_HOST\")\n    port = os.getenv(\"DB_PORT\")\n    dbname = os.getenv(\"DB_NAME\")\n    username = os.getenv(\"DB_USERNAME\")\n    password = os.getenv(\"DB_PASSWORD\")",
+        "detail": "app.config.config",
+        "documentation": {}
+    },
+    {
+        "label": "get_image_host_url",
+        "kind": 2,
+        "importPath": "app.config.config",
+        "description": "app.config.config",
+        "peekOfCode": "def get_image_host_url():\n    return os.getenv(\"IMAGE_HOST\")\ndef create_database_uri() -> str:\n    host = os.getenv(\"DB_HOST\")\n    port = os.getenv(\"DB_PORT\")\n    dbname = os.getenv(\"DB_NAME\")\n    username = os.getenv(\"DB_USERNAME\")\n    password = os.getenv(\"DB_PASSWORD\")\n    return f\"mysql+aiomysql://{username}:{password}@{host}:{port}/{dbname}\"\ndef get_database_uri() -> str:",
         "detail": "app.config.config",
         "documentation": {}
     },
@@ -589,7 +806,7 @@
         "kind": 6,
         "importPath": "app.controllers.folder",
         "description": "app.controllers.folder",
-        "peekOfCode": "class FolderController:\n    async def get_folder(session: AsyncSession, uuid: str):\n        if uuid is None:\n            stmt = select(Folder).where((Folder.deleted_at.is_(None)))\n            result = await session.execute(stmt)\n            folders = result.scalars().all()\n            return folders\n        else:\n            stmt = select(Folder).where(\n                (Folder.deleted_at.is_(None)) & (Folder.uuid == uuid)",
+        "peekOfCode": "class FolderController:\n    async def get_folder(\n        session: AsyncSession, folder_uid: str = None\n    ) -> list[FolderResponse]:\n        stmt = None\n        if folder_uid is None:\n            stmt = select(Folder).where(\n                (Folder.deleted_at.is_(None))\n            )\n        else:",
         "detail": "app.controllers.folder",
         "documentation": {}
     },
@@ -598,7 +815,7 @@
         "kind": 6,
         "importPath": "app.controllers.photo",
         "description": "app.controllers.photo",
-        "peekOfCode": "class PhotoController:\n    async def get_photo_list(folder_id: str):\n        return\n    async def get_photo(folder_id: str, uuid: str):\n        return\n    async def make_photo(folder_id: str, memo: str, files: any):\n        return\n    async def move_photo(folder_id: str, photos: List[str]):\n        return\n    async def delete_photo(uuid: str):",
+        "peekOfCode": "class PhotoController:\n    async def get_photo(\n        session: AsyncSession,\n        folder_uid: str,\n        photo_uid: str,\n    ) -> list[PhotoResponse]:\n        stmt = None\n        if folder_uid is None and photo_uid is None:\n            # 폴더와 상관없이 전체 사진 가져오기\n            stmt = select(Photo).where(",
         "detail": "app.controllers.photo",
         "documentation": {}
     },
@@ -643,7 +860,7 @@
         "kind": 6,
         "importPath": "app.models.folder",
         "description": "app.models.folder",
-        "peekOfCode": "class Folder(Base):\n    __tablename__ = \"folder\"\n    __table_args__ = {\"comment\": \"사진첩 폴더\"}\n    uuid: UUID = Column(\n        UUIDType(binary=False),\n        primary_key=True,\n        unique=True,\n        default=uuid4,\n        comment=\"폴더 UUID, Front 제공용 ID\",\n    )",
+        "peekOfCode": "class Folder(Base):\n    __tablename__ = \"folder\"\n    __table_args__ = {\"comment\": \"사진첩 폴더\"}\n    uuid: UUID = Column(\n        String(36),\n        primary_key=True,\n        unique=True,\n        nullable=False,\n        default=lambda: str(uuid4()),\n        comment=\"폴더 UUID, Front 제공용 ID\",",
         "detail": "app.models.folder",
         "documentation": {}
     },
@@ -652,7 +869,7 @@
         "kind": 6,
         "importPath": "app.models.photo",
         "description": "app.models.photo",
-        "peekOfCode": "class Photo(Base):\n    __tablename__ = \"photo\"\n    __table_args__ = {\"comment\": \"포토북, 사진 데이터\"}\n    uuid: UUID = Column(\n        UUIDType(binary=False),\n        primary_key=True,\n        unique=True,\n        default=uuid4,\n        comment=\"사진 UUID, Front 제공용 ID\",\n    )",
+        "peekOfCode": "class Photo(Base):\n    __tablename__ = \"photo\"\n    __table_args__ = {\"comment\": \"포토북, 사진 데이터\"}\n    uuid = Column(\n        String(36),\n        primary_key=True,\n        unique=True,\n        nullable=False,\n        default=lambda: str(uuid4()),\n        comment=\"사진 UUID, Front 제공용 ID\",",
         "detail": "app.models.photo",
         "documentation": {}
     },
@@ -679,7 +896,7 @@
         "kind": 6,
         "importPath": "app.schemas.folder",
         "description": "app.schemas.folder",
-        "peekOfCode": "class UpdateFolder(BaseModel):\n    name: str\n    class Config:\n        orm_mode = True\nclass DeleteFolder(BaseModel):\n    uuid: UUID\n    class Config:\n        orm_mode = True",
+        "peekOfCode": "class UpdateFolder(BaseModel):\n    name: str\n    class Config:\n        orm_mode = True\nclass DeleteFolder(BaseModel):\n    uuid: UUID\n    class Config:\n        orm_mode = True\nclass FolderResponse(BaseModel):\n    uuid: UUID",
         "detail": "app.schemas.folder",
         "documentation": {}
     },
@@ -688,7 +905,16 @@
         "kind": 6,
         "importPath": "app.schemas.folder",
         "description": "app.schemas.folder",
-        "peekOfCode": "class DeleteFolder(BaseModel):\n    uuid: UUID\n    class Config:\n        orm_mode = True",
+        "peekOfCode": "class DeleteFolder(BaseModel):\n    uuid: UUID\n    class Config:\n        orm_mode = True\nclass FolderResponse(BaseModel):\n    uuid: UUID\n    folder_name: str",
+        "detail": "app.schemas.folder",
+        "documentation": {}
+    },
+    {
+        "label": "FolderResponse",
+        "kind": 6,
+        "importPath": "app.schemas.folder",
+        "description": "app.schemas.folder",
+        "peekOfCode": "class FolderResponse(BaseModel):\n    uuid: UUID\n    folder_name: str",
         "detail": "app.schemas.folder",
         "documentation": {}
     },
@@ -715,7 +941,7 @@
         "kind": 6,
         "importPath": "app.schemas.photo",
         "description": "app.schemas.photo",
-        "peekOfCode": "class UpdatePhoto(BaseModel):\n    uuid: UUID\n    name: str\n    class Config:\n        orm_mode = True\nclass DeletePhoto(BaseModel):\n    uuid: UUID\n    class Config:\n        orm_mode = True",
+        "peekOfCode": "class UpdatePhoto(BaseModel):\n    uuid: UUID\n    name: str\n    class Config:\n        orm_mode = True\nclass DeletePhoto(BaseModel):\n    uuid: UUID\n    class Config:\n        orm_mode = True\nclass PhotoResponse(BaseModel):",
         "detail": "app.schemas.photo",
         "documentation": {}
     },
@@ -724,7 +950,16 @@
         "kind": 6,
         "importPath": "app.schemas.photo",
         "description": "app.schemas.photo",
-        "peekOfCode": "class DeletePhoto(BaseModel):\n    uuid: UUID\n    class Config:\n        orm_mode = True",
+        "peekOfCode": "class DeletePhoto(BaseModel):\n    uuid: UUID\n    class Config:\n        orm_mode = True\nclass PhotoResponse(BaseModel):\n    uuid: UUID\n    memo: Optional[str]\n    url: str",
+        "detail": "app.schemas.photo",
+        "documentation": {}
+    },
+    {
+        "label": "PhotoResponse",
+        "kind": 6,
+        "importPath": "app.schemas.photo",
+        "description": "app.schemas.photo",
+        "peekOfCode": "class PhotoResponse(BaseModel):\n    uuid: UUID\n    memo: Optional[str]\n    url: str",
         "detail": "app.schemas.photo",
         "documentation": {}
     },
@@ -760,7 +995,7 @@
         "kind": 2,
         "importPath": "migrations.versions.0.0.1_create_folder_photo",
         "description": "migrations.versions.0.0.1_create_folder_photo",
-        "peekOfCode": "def upgrade() -> None:\n    # ### commands auto generated by Alembic - please adjust! ###\n    op.create_table(\n        \"folder\",\n        sa.Column(\n            \"uuid\",\n            sqlalchemy_utils.types.uuid.UUIDType(binary=False),\n            nullable=False,\n            comment=\"폴더 UUID, Front 제공용 ID\",\n        ),",
+        "peekOfCode": "def upgrade() -> None:\n    # ### commands auto generated by Alembic - please adjust! ###\n    folder = op.create_table(\n        \"folder\",\n        sa.Column(\n            \"uuid\",\n            sa.String(length=36),\n            nullable=False,\n            comment=\"폴더 UUID, Front 제공용 ID\",\n        ),",
         "detail": "migrations.versions.0.0.1_create_folder_photo",
         "documentation": {}
     },
@@ -778,7 +1013,7 @@
         "kind": 5,
         "importPath": "migrations.versions.0.0.1_create_folder_photo",
         "description": "migrations.versions.0.0.1_create_folder_photo",
-        "peekOfCode": "revision = \"0.0.1\"\ndown_revision = None\nbranch_labels = None\ndepends_on = None\ndef upgrade() -> None:\n    # ### commands auto generated by Alembic - please adjust! ###\n    op.create_table(\n        \"folder\",\n        sa.Column(\n            \"uuid\",",
+        "peekOfCode": "revision = \"0.0.1\"\ndown_revision = None\nbranch_labels = None\ndepends_on = None\ndef upgrade() -> None:\n    # ### commands auto generated by Alembic - please adjust! ###\n    folder = op.create_table(\n        \"folder\",\n        sa.Column(\n            \"uuid\",",
         "detail": "migrations.versions.0.0.1_create_folder_photo",
         "documentation": {}
     },
@@ -787,7 +1022,7 @@
         "kind": 5,
         "importPath": "migrations.versions.0.0.1_create_folder_photo",
         "description": "migrations.versions.0.0.1_create_folder_photo",
-        "peekOfCode": "down_revision = None\nbranch_labels = None\ndepends_on = None\ndef upgrade() -> None:\n    # ### commands auto generated by Alembic - please adjust! ###\n    op.create_table(\n        \"folder\",\n        sa.Column(\n            \"uuid\",\n            sqlalchemy_utils.types.uuid.UUIDType(binary=False),",
+        "peekOfCode": "down_revision = None\nbranch_labels = None\ndepends_on = None\ndef upgrade() -> None:\n    # ### commands auto generated by Alembic - please adjust! ###\n    folder = op.create_table(\n        \"folder\",\n        sa.Column(\n            \"uuid\",\n            sa.String(length=36),",
         "detail": "migrations.versions.0.0.1_create_folder_photo",
         "documentation": {}
     },
@@ -796,7 +1031,7 @@
         "kind": 5,
         "importPath": "migrations.versions.0.0.1_create_folder_photo",
         "description": "migrations.versions.0.0.1_create_folder_photo",
-        "peekOfCode": "branch_labels = None\ndepends_on = None\ndef upgrade() -> None:\n    # ### commands auto generated by Alembic - please adjust! ###\n    op.create_table(\n        \"folder\",\n        sa.Column(\n            \"uuid\",\n            sqlalchemy_utils.types.uuid.UUIDType(binary=False),\n            nullable=False,",
+        "peekOfCode": "branch_labels = None\ndepends_on = None\ndef upgrade() -> None:\n    # ### commands auto generated by Alembic - please adjust! ###\n    folder = op.create_table(\n        \"folder\",\n        sa.Column(\n            \"uuid\",\n            sa.String(length=36),\n            nullable=False,",
         "detail": "migrations.versions.0.0.1_create_folder_photo",
         "documentation": {}
     },
@@ -805,7 +1040,7 @@
         "kind": 5,
         "importPath": "migrations.versions.0.0.1_create_folder_photo",
         "description": "migrations.versions.0.0.1_create_folder_photo",
-        "peekOfCode": "depends_on = None\ndef upgrade() -> None:\n    # ### commands auto generated by Alembic - please adjust! ###\n    op.create_table(\n        \"folder\",\n        sa.Column(\n            \"uuid\",\n            sqlalchemy_utils.types.uuid.UUIDType(binary=False),\n            nullable=False,\n            comment=\"폴더 UUID, Front 제공용 ID\",",
+        "peekOfCode": "depends_on = None\ndef upgrade() -> None:\n    # ### commands auto generated by Alembic - please adjust! ###\n    folder = op.create_table(\n        \"folder\",\n        sa.Column(\n            \"uuid\",\n            sa.String(length=36),\n            nullable=False,\n            comment=\"폴더 UUID, Front 제공용 ID\",",
         "detail": "migrations.versions.0.0.1_create_folder_photo",
         "documentation": {}
     },

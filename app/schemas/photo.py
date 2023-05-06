@@ -1,5 +1,7 @@
+from typing import Optional
 from uuid import UUID
 from pydantic import BaseModel
+from app.models.photo import Photo
 
 
 class GetPhoto(BaseModel):
@@ -29,3 +31,9 @@ class DeletePhoto(BaseModel):
 
     class Config:
         orm_mode = True
+
+
+class PhotoResponse(BaseModel):
+    uuid: UUID
+    memo: Optional[str]
+    url: str
